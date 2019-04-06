@@ -1,0 +1,93 @@
+body{
+  background: #e7b586;
+}
+
+.search-input{
+  border-radius: 5px;
+  margin-bottom: 15px;
+  height: 20px;
+  width: 200px;
+}
+
+button{
+  cursor: pointer;
+  background: white;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.films-block__list-block ul{
+  width: 600px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.films-block__list-block ul li{
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid #e7b586;
+  background: #dd9548;
+  padding: 5px;
+}
+
+.films-block__list-block p{
+  font-size: 25px;
+  color: #762d0b;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.films-block{
+  display: flex;
+}
+
+.films-block__film-info{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-top: 20px;
+  background: #e7b586;
+}
+
+.films-block__film-info img{
+  max-width: 342px;
+  max-height: 513px;
+  border: 2px solid black;  
+}
+
+.films-block__film-info div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.films-block__film-info div .description{
+  font-size: 27px;
+}
+
+
+.films-block__film-info div ul{
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  align-self: flex-start;
+}
+
+.films-block__film-info div ul li{
+  font-size: 20px;
+}
+
+.recommendations{
+  font-size: 27px;
+  align-self: flex-start;
+  font-weight: bolder;
+}
