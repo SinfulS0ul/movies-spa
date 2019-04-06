@@ -109,7 +109,7 @@ $list.addEventListener('click', async (e)=>{
   //  Getting last part of poster url
   const uniqImage = movieMass[movieNumber].poster_path;
   //  Creating full url of poster or setting empty image
-  $filmImage.src = uniqImage? `${baseImageUrl}${imageSize}${uniqImage}`: 'Noimage.png';
+  $filmImage.src = uniqImage? `${baseImageUrl}${imageSize}${uniqImage}`: 'src/Noimage.png';
 
   const $filmTitle = document.createElement('p');
   const $filmDescription = document.createElement('p');
